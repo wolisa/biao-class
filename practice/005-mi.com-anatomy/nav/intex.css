@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    font-size: 0;
+}
+
+.col {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.right {
+    text-align: right;
+}
+
+.nav {
+    background: black;
+}
+
+.nav .left > a,
+.nav .right > a {
+    display: inline-block;
+    color: white;
+    padding: 10px 5px;
+    font-family: 'microsoft yahei';
+    font-size: 90%;
+}
+
+.nav a:hover {
+    color: greenyellow;
+    background: green
+}
