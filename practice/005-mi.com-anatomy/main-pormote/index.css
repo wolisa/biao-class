@@ -1,0 +1,15 @@
+.main-promote .cat {
+    background: rgba(0, 0, 0, .8);
+    width: 20%;
+}
+
+.main-promote .slider {
+    width: 80%;
+}
+
+a {
+    display: block;
+    color: #eee;
+    padding:8px 20px;
+}
+
