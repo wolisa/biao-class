@@ -1,0 +1,8 @@
+/* div a {
+    color: aqua;
+    background: gery;
+} */
+
+div > a {
+    color:green;
+}
