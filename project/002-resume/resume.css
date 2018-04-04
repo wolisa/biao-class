@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+}
+
+.row {
+    font-size: 0;
+}
+
+.col-2,
+.col-8,
+.col-3,
+.col-7,
+.col-10 {
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.col-3 {
+    width: 30%;
+    background: rgba(0, 0, 0, .05);
+    margin-right: -8px; 
+}
+
+.col-7 {
+    width: 70%;
+    padding-right: 16px;
+    margin-left: -8px;
+}
+
+.col-10 {
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    background: #0b70bd;
+}
+
+h1 {
+    color: aliceblue;
+    line-height: 186px;
+    padding-left: 10%;
+    font-weight: 543;
+    margin: 0; 
+}
+
+#img {
+    width: 120px;
+    height: 120px;
+    background: black;
+    border-radius: 50%;
+    background-image: url(./1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 60%;
+}
+
+ul {
+    color: rgba(0, 0, 0, .6);
+}
+
+.top * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-1,
+.title {
+    color: #0b70bd;
+    font-weight: 666;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+}
+
+.col-7 .content .text * {
+    margin-right: 14%;
+    padding-top: 15px;
+    padding-left: 5%;
+}
+.col-7 .content .text-1 * {
+    margin-right: 11%;
+}
+
+.col-3 .title:first-child {
+    margin-top: 25px;
+}
+
+.practice .list > *,
+.dete .description span {
+    padding: 15 0 0 25px;
+}
+
+.dete .description span {
+    color: #0b70bd;
+    display: block;    
+}
+
+.practice .list .intro * {
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+.list .intro .text {
+    color: rgba(0, 0, 0, .6);
+}
+
+.x,
+.xxxx {
+    height: 10px;
+    background: #0b70bd;
+}
+
+.xxxx {
+    width: 90%;
+}
+
+.x {
+    width: 25%;
+}
+
