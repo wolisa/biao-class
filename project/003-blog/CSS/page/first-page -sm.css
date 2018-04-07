@@ -1,0 +1,111 @@
+@media (max-width:650px) {
+
+    .nav-fixed,
+    .first-screen .nav {
+        padding: 3px 15px;
+    }
+
+    .f-menu,
+    .menu a {
+        width: 25px;
+    }
+
+    .f-menu a,
+    .menu a,
+    #f-name,
+    #name {
+        float: left;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    
+    .first-screen .conten {
+        padding-top: 0;
+    }
+
+    .bottom .text,
+    .first-screen .title {
+        font-size: .8rem;
+        padding: 5px;
+
+    }
+
+    .first-screen .text {
+        font-size: .6rem;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 5px 20px;
+        font-size: .7rem;
+    }
+
+    .first-screen .link-group {
+        margin-top: 18px;
+        padding-bottom: 8px;
+    }
+
+    .first-screen .link-group a {
+        width: 15px;
+    }
+
+    .main .bgc {
+        padding: 20px;
+    }
+
+    .bottom .container > * ,
+    .main .conten > * {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .bgc .title{
+        margin-top: 25px;
+    }
+
+    .bottom .title,
+    .bgc .title {
+        font-size: 1.6rem;
+        text-align: center; 
+    }
+
+    .bgc .title br {
+        display: none;
+    }
+
+    .bgc .text {
+        margin-bottom: 35px;
+        font-size: .7rem;
+    }
+
+    .main .card .label {
+        padding: 5px 20px;
+        font-size: 1rem;
+        top: 20px;
+        left: 23px;
+    }
+
+
+    .main .conten p {
+        font-size: .8rem;
+        padding: 25px;
+    }
+
+    .bottom {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .bottom button {
+        display: none;
+    }
+
+    .bottom .text {
+        padding-top: 5px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}

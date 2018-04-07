@@ -1,0 +1,191 @@
+.first-screen {
+    background-image: url(../../img/first-screen.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center auto;
+    position: relative;
+    z-index: 2;
+}
+
+.first-screen .container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menu,
+.nav {
+    line-height: 5.5rem;
+}
+
+.f-menu a:hover,
+.menu a:hover {
+    transform: scale(1.2);
+}
+
+.f-menu a,
+.menu a {
+    transition: transform 0.3s ease-out;
+}
+
+.nav-fixed {
+    position: fixed;
+    background: #5489bb;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 5px 80px;
+}
+
+#name {
+    font-size: 5.5rem;
+    color: #fdfeffb5;
+}
+
+#f-name,
+#name {
+    font-family: 'Bad Script', cursive;
+    font-weight: 400;
+}
+
+#f-name {
+    /* color: #eee; */
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #eee;
+}
+
+.first-screen .conten {
+    padding-top: 166px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.first-screen .title {
+    padding: 20px;
+    font-size: 2.5rem;
+    background: rgba(86, 157, 206, 0.3);
+}
+
+.first-screen .text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+.first-screen .title,
+.first-screen .text {
+    color: rgba(255, 255, 255, .8);
+}
+
+button {
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 35px;
+    /* background: #1abc9c; */
+    background: #b6b6e6f5;
+    color: #fff;
+    transition: transform 1s;
+}
+
+button:hover {
+    color: #9696def5;
+    background: #eee;
+    transform: scale(1.5) skew(20deg);  
+    font-weight: 666;
+}
+
+.first-screen .link-group {
+    padding: 10px 20px 20px 20px;
+    margin-top: 40px;
+}
+
+
+.first-screen .link-group a:hover {
+    border-radius: 50%;
+    padding: 5px;
+    background: #b6b6e6f5;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.main .bgc {
+    background: #5489bbd6;
+    padding: 66px;
+}
+
+.bgc .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #0d4a83;
+}
+
+.bgc .title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin: 60px auto 15px auto;
+}
+
+.bgc .text {
+    margin-bottom: 80px;
+    font-size: .9rem;
+}
+
+.bgc .title,
+.bgc .text {
+    color: #eee;
+    line-height: 1.5;
+}
+
+.main .solid {
+    background: #fff;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.main .solid * {
+    background: #b6b6e6f5;
+    height: 2px;
+}
+
+.main .conten .card {
+    position: relative;
+}
+
+.main .card .label {
+    position: absolute;
+    color: #eee;
+    /* background: #1abc9c; */
+    background: #b6b6e6f5;    
+    top: 40px;
+    left: 60px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+}
+
+.main .conten p {
+    font-size: 2rem;
+    padding: 20px 60px 0 80px;
+    margin: 0;
+    color: rgba(0, 0, 0, .6);
+}
+
+.bottom {
+    padding: 80px 0;
+}
+
+.bottom .col-4 {
+    padding-right: 30px;
+}
+
+.bottom .title {
+    font-size: 1.7rem;
+    color: #a1a1ff;    
+}
+
+.bottom .text {
+    font-size: 0.8rem;
+    padding: 30px 0 80px 0;
+    color: rgba(0, 0, 0, .6);
+}

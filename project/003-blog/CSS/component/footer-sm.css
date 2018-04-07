@@ -1,0 +1,23 @@
+@media (max-width:650px) {
+    footer {
+        padding: 20px;
+    }
+
+    footer .container {
+        padding-bottom: 0;
+    }
+
+    footer .container > * {
+        text-align: center;
+        width: 100%;
+    }
+
+    footer .title,
+    footer .text {
+        margin: 0;
+    }
+
+    footer .head {
+        margin: 40px 0 10px 0;
+    }
+}

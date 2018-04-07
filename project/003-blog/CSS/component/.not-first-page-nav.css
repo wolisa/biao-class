@@ -1,0 +1,43 @@
+#name {
+    font-size: 5.5rem;
+    color: #fdfeffb5;
+}
+
+#f-name,
+#name {
+    font-family: 'Bad Script', cursive;
+    font-weight: 400;
+}
+
+#f-name {
+    /* color: #eee; */
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #eee;
+}
+
+.menu,
+.nav {
+    line-height: 5.5rem;
+}
+
+.f-menu a:hover,
+.menu a:hover {
+    transform: scale(1.2);
+}
+
+.f-menu a,
+.menu a {
+    transition: transform 0.3s ease-out;
+}
+
+
+.nav-fixed {
+    position: fixed;
+    background: #5489bb;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 5px 80px;
+}
