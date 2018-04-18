@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+.first-screen {
+    background-image: url(beijing.jpg);
+    height: 600px; 
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.row {
+    font-size: 0;
+}
+
+.col {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    text-align: right;
+    width: 70%;
+}
+
+.left, .right {
+    margin-top: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center {
+    color: #fff;
+}
+
+.center .title {
+    margin-top: 250px; 
+}
+
+.main {
+    margin-bottom: 0px;
+}
+
+.logo, .location {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    background-image: url(xuebitu.png);
+    background-position:1 -378;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 55px;
+}
+
+.location {
+    background: rgba(0, 0, 0, .2);
+    color: #eee;
+}
+
+.icon-location {
+    background-image: url(xuebitu.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-position: -183px -13px;
+    display: inline-block
+}
+
+
+.search-area {
+    margin-top: 35px; 
+}
+
+.search-input,
+.search-button {
+    border: 0;
+    padding: 20px 20px;
+}
+
+.search-input {
+    width: 400px;
+}
+
+.search-button {
+    background-color: #00ae66;
+    color:#fff;
+}
+
+.assur-left, .assur-right {
+    margin-top: 50px;
+    font-size: 75%;
+    height: 15px;
+    padding-left: 10px;
+}
+
+.assur-left img, .assur-right img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shortcut a > * {
+    text-align: center;
+    display: block;
+}
+
+.shortcut .title {
+    padding-top: 25px; 
+    color: black;
+    font-size:  20px;
+}
+
+.main-img {
+    background-image: url(app.jpg);
+    height: 480px;
+}
+
+.img-theme {
+    width: 360px;
+    height: 180px;
+    display: block;
+    background-image: url(xuebitu.png);
+    /* background: rgba(0, 0, 0, .1); */
+    background-position:-417px -354px;
+}
+
+.img-text {
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.app, .app-img {
+    height: 102px;
+}
+
+.app a > * {
+    width: 133px;
+    height: 44px;
+    display: block;
+}
+
+.iphone {
+    background-image: url(xuebitu.png);
+    background-position: -169px -140px;
+}
+
+.android {
+    background: url(xuebitu.png);
+    background-position:440px 322px;
+    margin-top: 5px;
+}
+
+.app-img {
+    background: url(xuebitu.png);
+    width: 102px;
+
+}
+
+

@@ -1,0 +1,132 @@
+.body {
+    margin: 0;
+}
+
+.row {
+    font-size: 0;
+}
+
+.col {
+    font-size: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.first-screen {
+    background: url(../img/beijing.jpg);
+    min-height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navigation .left,
+.navigation .right {
+    width: 50%
+}
+
+.right {
+    text-align: right;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #eee;
+}
+
+.navigation * {
+    display: inline-block;
+}
+
+.navigation .logo {
+    width: 100px;
+    height: 60px;
+    background: red;
+}
+
+.navigation .location .icon {
+    width: 30px;
+    height: 20px;
+    background: green;
+}
+
+.search-main {
+    text-align: center;
+}
+
+.search-title {
+    margin-top: 120px; 
+}
+
+.search-area {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.search-area .type {
+    text-align: left;
+}
+
+.search .go,
+.search-title {
+    color: #eee;
+}
+
+.search .go,
+.search .text {
+    padding: 15px;
+    border: 0;
+    line-height: 1.1;
+}
+
+.search .text {
+    width: 500px;
+}
+
+.search .go {
+    background: green;
+}
+
+h1 {
+    margin: 0;
+    font-size: 400%;;
+}
+
+.search-area .type,
+.assur {
+    color: rgba(255, 255, 255, .7);
+}
+
+.assur {
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.shortcut .title {
+    font-size: 200%;
+    color: black
+}
+
+.shortcut a > * {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.shortcut .text {
+    color: rgba(0, 0, 0, .3);
+}
+
+.shortcut .container .col {
+    padding:5px;
+    margin-right: 2px;
+}
+

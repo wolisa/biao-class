@@ -1,0 +1,87 @@
+<meta charset="UTF-8">
+
+<script>
+    // var a = ['ls','sl','hh','yq','ls','sl','hh','yq','ls','sl','hh','yq'];
+
+    //     for (var i = 0; i < 5; i++) {
+    //         b = a[i];
+    //         console.log(b)
+    //     }
+
+    // var a = ['a', 's', 'd', 'f', 'g', 'h', 'd'];
+
+    // for (var i = 0; i < 5; i++) {
+    //     var z = a[i];
+    //     console.log(z)
+    // }
+
+    // for (var i = 0; i < 10; i++) {
+    //     var x = a[i];
+    //     console.log(x);
+    // }
+
+    // var numlist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    // for (var i = 0; i < numlist.length; i++){
+    //     var num = numlist[i];
+    //     if (num > 4) {
+    //         console.log(num);
+    //     }
+    // }
+
+    // for (var i = 0; i < numlist.length; i++) {
+    //     var num = numlist[i];
+    // if (num % 2 == 1) {
+    //     console.log('奇数',num);
+    // } else {
+    //     console.log('偶数', num)
+    // }
+
+    //     if (num % 2 == 0)
+    //     continue;
+
+    //     console.log('奇数',num)
+    //     if (num % 2 == 1)
+    //         continue;
+    //     if (num < 4)
+    //         continue;
+    //     console.log('大四偶数', num);
+    //     if (num == 6) {
+    //         console.log('666');
+    //         break;
+    //     }
+    //     if (num == 7) {
+    //         console.log('777');
+    //     }
+    // }
+
+    var num_list = [
+        [
+            [1, 11, 111],
+            [2, 22, 222],
+            [3, 33, 333],
+            [4, 44, 444],
+        ],
+        [
+            [1, 11, 111],
+            [2, 22, 222],
+            [3, 33, 333],
+            [4, 44, 444],
+        ],
+    ];
+
+    fa: for (var i = 0; i < num_list.length; i++) {
+        var list = num_list[i];
+        fb: for (var j = 0; j < list.length; j++) {
+            var num = list[j];
+            fc: for (var k = 0; k < num.length; k++) {
+                var a = num[k];
+                if (a == 3) {
+                    break fb;
+                }
+                console.log(a)
+            }
+        }
+    }
+
+</script>

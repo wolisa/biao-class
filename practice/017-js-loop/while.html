@@ -1,0 +1,165 @@
+<script>
+    // var i = 0;
+    // var num = [1, 2, 3, 4, 5, 6];
+    // while (i < num.length) {
+    //     console.log(num[i]);
+    //     i++;
+    // };
+
+    // var abc = ['a', 'b'];
+    // var j = 0;
+    // while (j < abc.length) {
+    //     console.log(abc[j])
+    //     j++;
+    // };
+
+
+    // function zuofan(mai, rou, ccc) {
+    //     console.log('maicai');
+    //     if (mai) {
+    //         mai()
+    //     };
+    //     console.log('xicai');
+    //     if (rou) {
+    //         rou()
+    //     }
+    //     console.log('chaocai');
+    //     if (ccc) {
+    //         ccc()
+    //     };
+    // };
+    // function rrr() { console.log('abc') }
+
+    // zuofan(function () { console.log('roua') }, function () { console.log('shuawan') }, rrr)
+
+
+    // function ls(a, b, c) {
+    //     console.log('吃肉');
+    //     if (a) {
+    //         a()
+    //     };
+    //     console.log('吃菜');
+    //     if (b) {
+    //         b()
+    //     };
+    //     console.log('刷碗');
+    //     if (c) {
+    //         c()
+    //     };
+
+    // };
+    // function a() {
+    //     console.log('没肉');
+    // };
+    // function b() {
+    //     console.log('也没有');
+    // };
+    // function c() { console.log('全是碗'); };
+
+    // ls(a,b,c);
+
+    // function zzz(ya, lian) {
+    //     if (ya) {
+    //         ya();
+    //     };
+    //     console.log('准备睡觉');
+    //     if (lian) {
+    //         lian();
+    //     };
+    //     console.log('开始睡觉');
+    // };
+
+    // function shuaya() {
+    //     console.log('刷牙');
+    // };
+    // function xilian() {
+    //     console.log('洗脸')
+    // }
+
+    // zzz(shuaya, 0)
+
+
+
+    // function haha(qian, ye, no) {
+    //     if (qian) {
+    //         console.log('欢迎光临');
+    //         ye()
+    //     } else {
+    //         console.log('赶紧给钱');
+    //         if (no) {
+    //             no();
+    //             console.log('失败了，但不退款');
+    //         }
+    //     };
+    //     console.log('没有什么是充值不能解决的');
+    // }
+
+    // function cg() {
+    //     console.log('已成功付款');
+    //     console.log('准备发货');
+    // }
+
+    // function sb() {
+    //     console.log('没货了，钱不退');
+    // }
+
+    // haha(100, cg, sb);
+    // haha(0, cg, sb)
+
+    //       function buy(money, success, fail) {
+    //     if (money) {
+    //       console.log('下单成功');
+    //       if (success)
+    //         success();
+    //     } else {
+    //       console.log('下单失败');
+    //       if (fail)
+    //         fail();
+    //     }
+    //   }
+    //   /*当购买游戏（虚拟产品之一）成功时执行的代码*/
+    //   function on_game_order_success() {
+    //     console.log('游戏单，无需实体发货');
+    //   }
+    //   /*当购买T恤（实体产品之一）成功时执行的代码*/
+    //   function on_tshirt_order_success() {
+    //     console.log('服饰单');
+    //     console.log('通知仓库中...')
+    //     console.log('已通知仓库，发货中...');
+    //   }
+    //   /*下单失败（未付款）时执行的代码*/
+    //   function on_order_fail() {
+    //     console.log('钱呢');
+    //   }
+    //   buy(100, on_game_order_success, on_order_fail);
+    //   buy(0, on_tshirt_order_success, on_order_fail);
+
+    function abc(q, w, e,r) {
+        console.log('我要出门了');
+        if (q) {
+            w();
+        } else {
+            if (e) {
+                e();
+            }
+        }
+        console.log('还要去吃饭');
+        if (r) {
+            r();
+        }
+    }
+
+    function mei (){
+        console.log('出毛线。钱包里也没钱');
+    }
+    function you() {
+        console.log('多拿点');
+    }
+    function dai(){
+        console.log('帮我带一份');
+    }
+
+    abc(0,you,mei,dai);
+    abc(11,you,mei,dai);
+
+</script>

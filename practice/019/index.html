@@ -1,0 +1,80 @@
+<button>a</button>
+<a class="button" href="http://baidu.com">b</a>
+<a class="button" href="http://baidu.com">b</a>
+<a class="button" href="http://baidu.com">b</a>
+
+<input type="text">
+<!-- <a href="#">b</a>
+<div class="aa">abc</div>
+<div class="aa">aaa</div>
+<div id="aa">aabb</div>
+<span>bbb</span> -->
+<script>
+    // var btn = document.querySelector('.button');
+    // btn.addEventListener('click', function (event) {
+    //     event.preventDefault();
+    //     console.log('hahaha');
+    // });
+
+    // var btn = document.querySelector('.button');
+    // btn.addEventListener('mouseenter', function () {
+    //     console.log('鼠标进入');
+    // });
+
+    // var btn = document.querySelector('.button');
+    // btn.addEventListener('mouseleave', function () {
+    //     console.log('鼠标出去');
+    // });
+
+    var a = document.querySelector('a');
+    var search = document.querySelector('input')
+    a.addEventListener('mouseenter', function () {
+        console.log('鼠标进入');
+    })
+
+    a.addEventListener('mouseleave', function () {
+        console.log('鼠标出去');
+    })
+
+    search.addEventListener('focus',function(){
+        console.log('聚焦');
+    })
+
+    search.addEventListener('blur', function(){
+        console.log('失去聚焦');
+    })
+
+
+    // var btn = document.querySelector('.button');
+    // btn = addEventListener('click', function(event){
+    // event.preventDefault();
+    //     console.log('leighou');
+    // });
+
+    // var a = document.querySelector('a');
+    // a.addEventListener('click', function (event) {
+    //     event.precentDefault();
+    //     console.log('sa');
+    // });
+
+    // var alist = document.querySelector('a');
+    // for (i = 0; i = alist.length; i++) {
+    //     var a = alist[i];
+    //     a.addEventListener('click',function(event){
+    //         event.precentDefault();
+    //         console.log('ls');
+    //     })
+    // }
+
+    // var a = docunment.quertSelector('a');
+    // var aa = docunment.quertSelector('.aa');
+    // var idaa = docunment.quertSelector('#aa');
+    // var span = docunment.quertSelector('span');
+
+    // var divList = docunment.getElementsByClassName('aa');
+    // var divid = docunment.getElementById('aa');
+
+
+
+
+</script>

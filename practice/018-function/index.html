@@ -1,0 +1,102 @@
+<script>
+    // var n = 'llss';
+    // function sayhi() {
+    //     n = 'ssll';
+    //     console.log(n);
+    // }
+
+    // sayhi();
+    // console.log(n);
+
+    // var namelist = 'ls';
+    // function name1() {
+    //     namelist = 'aaaaaaaa';
+    //     console.log(namelist);
+    // }
+
+    // console.log(namelist);
+    // name1();
+    //===============================================
+    // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // function arrhe(arr) {
+    //     var sum = 0;
+    //     for (var i = 0; i < arr.length; i++) {
+    //         var fitem = arr[i];
+    //         sum = sum + fitem;
+    //     }
+    //     console.log(sum);
+    // }
+
+    // arrhe([1,2,3]);
+
+    // arrhe([1,3,4,8,9])
+
+    //========================================
+    var user = [
+        {
+            name: '王花花',
+            playing: ['CS', '红警'],
+        },
+        {
+            name: '李拴蛋',
+            playing: ['守望屁股', '吃鸡', 'CS'],
+        },
+        {
+            name: '牛备备',
+            playing: ['红警', '吃鸡'],
+        },
+    ];
+
+    function ssearch(usera) {
+        var result = [];
+        for (var i = 0; i < user.length; i++) {
+            var item = user[i];
+            console.log(item.playing.indexOf(usera));
+            if (item.playing.indexOf(user) !== -1) {
+                result.push(item.name);
+            }
+        }
+        console.log(result)
+    }
+
+    ssearch('红警');
+
+    function search(keyword) {
+        var list = [
+            {
+                name: '王花花',
+                playing: ['CS', '红警'],
+            },
+            {
+                name: '李拴蛋',
+                playing: ['守望屁股', '吃鸡', 'CS'],
+            },
+            {
+                name: '牛备备',
+                playing: ['红警', '吃鸡'],
+            },
+        ];
+
+        /*不知道能不能搜到，所以默认为空数组*/
+        var result = [];
+
+        /*遍历每个用户*/
+        for (var i = 0; i < list.length; i++) {
+            /*缓存当前用户*/
+            var item = list[i];
+            /*拿到当前用户的游戏列表（数组）*/
+            var playing = item.playing;
+
+            /*如果游戏列表中有搜索的游戏，也就是只要indexOf方法没有返回-1*/
+            if (playing.indexOf(keyword) !== -1) {
+                /*就将其推到搜索结果中*/
+                result.push(item.name);
+            }
+        }
+
+        console.log(result);
+    }
+
+    search('吃鸡');
+</script>
+</script>

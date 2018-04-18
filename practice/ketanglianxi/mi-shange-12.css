@@ -1,0 +1,193 @@
+    .row {
+        font-size: 0;
+        display: block;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        font-size: 1rem;
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+        min-height: 20px;
+    }
+
+    .col-1 {
+        width: 8.3333333%;
+    }
+
+    .col-2 {
+        width: 16.6666666%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.3333333%;
+    }
+
+    .col-5 {
+        width: 41.6666666%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.333333%;
+    }
+
+    .col-8 {
+        width: 66.666666666%;
+    }
+
+    .col-9 {
+        width: 75%
+    }
+
+    .col-10 {
+        width: 83.3333333%;
+    }
+
+    .col-11 {
+        width: 91.666666666%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.first-screen .category{
+    background-image: url(../005-mi.com-anatomy/main-promote/1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #fff;
+}
+
+.navigation {
+    background: rgba(0, 0, 0, .8);
+}
+
+.navigation a {
+    color: #bbb;
+}
+
+.top a {
+    color: black;
+}
+
+.top {
+    margin: 20px auto;
+}
+
+.top * {
+    padding: 8px;
+    display: inline-block;
+}
+
+.left, .right{
+    font-size: 18px;
+    padding: 6px;
+}
+
+.right {
+    text-align: right;
+}
+
+.toop a {
+    color: black;
+}
+
+.top a:hover {
+    color: orangered;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.category-list a {
+    display: block;
+    background: rgba(0, 0, 0, .5);
+    padding: 15px;
+    color: #eee;
+}
+
+.rec a:hover,
+.category-list a:hover {
+    background: orangered;
+    color: #fff;
+}
+
+#search, #sunmit {
+    height: 40px;
+
+}
+
+form{
+    position: relative;
+}
+
+.top form .rec {
+    font-size: 55%;
+    position: absolute;
+    right: 60px;
+    top: 12px;
+}
+
+.rec a {
+    background: rgba(0, 0, 0, .3);
+    margin-right: 2px;
+}
+
+.shortcut-list {
+    background: rgba(0, 0, 0, .5)
+}
+
+.shortcut-list a {
+    display: inline-block;
+    color: #ccc;
+    padding: 20px 8px;
+}
+
+.shortcut-list a:hover {
+    color: #fff;
+}
+
+.shortcut .card {
+    background-image: url(../img/mi-shortcut.jpg);
+    display: block;
+    min-width: 100px;
+    min-height: 100px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
